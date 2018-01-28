@@ -47,7 +47,7 @@ a{
 }
 #oMnie{
     padding-top: 100px;
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 10vh;
     background:#0d0e11;
 }
@@ -71,10 +71,20 @@ a{
     transition: 0.1s linear;
     cursor: pointer;
 }
+.portfolioImageSzub img{
+    width: 100%;
+    min-height: 130px;
+    
+}
+.portfolioImageSzub:hover{
+    transform: scale(2.2);
+    transition: 0.1s linear;
+    cursor: pointer;
+}
 .rowPortfolio{
-    margin-top: 50px;
+   margin-top: 50px;
     text-align: left;
-    height: 130px;
+    min-height: 130px;
    
 
 }
